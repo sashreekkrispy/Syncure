@@ -13,3 +13,11 @@ export const RemoveLocalStorage=async()=>{
     await AsyncStorage.clear();
 }
 
+export const clearLocalStorage = async () => {
+    try {
+      await AsyncStorage.clear(); // Clears all stored data
+    } catch (error) {
+      console.error('Error clearing local storage:', error);
+    }
+  };
+

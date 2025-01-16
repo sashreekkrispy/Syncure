@@ -7,11 +7,13 @@ import { GetDateRangeToDisplay } from '../service/ConvertDateTime';
 import { getLocalStorage } from '../service/Storage';
 import MedicationCardItem from './MedicationCardItem';
 import EmptyState from './EmptyState';
+import { useRouter } from 'expo-router';
 
 export default function MedicationList() {
   const [medList, setMedList] = useState([]);
   const [dateRange, setDateRange] = useState([]);
   const [selectedDate, setSelectedDate] = useState(moment().format('MM/DD/YYYY'));
+  const router=useRouter();
 
   useEffect(() => {
     GetDateRangeList();
@@ -102,8 +104,14 @@ export default function MedicationList() {
         <FlatList
           data={medList}
           renderItem={({ item, index }) => (
-            <TouchableOpacity>
-              <MedicationCardItem medicine={item} />
+            <TouchableOpacity onPress={()=>router.push({
+              pathname:'/action-model',
+              params:{
+                ...item,
+                selectedDate:selectedDate
+              }
+            })}>
+              <MedicationCardItem medicine={item} selectedDate={selectedDate}/>
             </TouchableOpacity>
           )}
         />
