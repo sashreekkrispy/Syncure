@@ -1,50 +1,81 @@
-# Welcome to your Expo app 👋
+<h1 align="center">Syncure</h1>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+<br/><br/>
 
-1. Install dependencies
+<a href="#">
+  <img src="https://img.shields.io/badge/ReactNative-0.73.6-blue.svg?style=flat-square" alt="rn version">
+</a>
 
-   ```bash
-   npm install
-   ```
+## Introduction
 
-2. Start the app
+Syncure - Your Trusted Health Companion
 
-   ```bash
-    npx expo start
-   ```
+Syncure is a dedicated platform to manage your medication schedule effortlessly. Add medicines, set detailed schedules, and keep track of your doses all in one place. Stay organized and take control of your health with Syncure.
 
-In the output, you'll find options to open the app in a
+## Requirements
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- NPM (Node Package Manager)
+- React-Native
+- Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Features
 
-## Get a fresh project
+- Add medicines with detailed information, including name, dosage, and timing
+- Set reminders for each medicine to help you stay on schedule
+- Track and manage your daily, weekly, or monthly medication routine
+- Edit or update medicine details effortlessly
+- View all your scheduled medicines in a clean and organized home screen
+- Simple and professional UI for smooth navigation
 
-When you're ready, run:
+## Setup
 
-```bash
-npm run reset-project
-```
+Install all packages
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+> npm install
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Screenshots
 
-## Join the community
+<p align="center">
+  <span>
+    <img src="screenshots/10.jpg" width="230px" />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    
+  </span>
+</p>
 
-Join our community of developers creating universal apps.
+<p align="center">
+  <span>
+    <img src="screenshots/1.jpg" width="230px" /> &nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="screenshots/2.jpg" width="230px" /> &nbsp;&nbsp;&nbsp;&nbsp;
+  </span>
+</p>
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<p align="center">
+  <span>
+    <img src="screenshots/4.jpg" width="230px" /> &nbsp;&nbsp;&nbsp;&nbsp;
+    
+  </span>
+</p>
+
+
+<p align="center">
+  <span>
+    <img src="screenshots/6.jpg" width="230px" /> &nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="screenshots/5.jpg" width="230px" />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="screenshots/7.jpg" width="230px" />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    
+  
+  </span>
+</p>
+
+<p align="center">
+  <span>
+    <img src="screenshots/8.jpg" width="230px" /> &nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="screenshots/9.jpg" width="230px" />
+  </span>
+</p>
